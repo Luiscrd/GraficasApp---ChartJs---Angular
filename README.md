@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
+## Run Bd
+
+Install [JSON Server](https://www.npmjs.com/package/json-server) from `npm install -g json-server`
+
+open cdm in `/Formularios_serve` and run `json-server --watch db.json`
+
+Now if you go to `http://localhost:3000/grafica`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
